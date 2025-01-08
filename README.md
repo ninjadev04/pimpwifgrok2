@@ -77,8 +77,8 @@ User Mentions: When users are tagged in Discord, the bot will tag them back in i
 - Tweepy: For seamless Twitter integration.
 - httpx: Used for secure and efficient API requests.
 
-###Contributing 🤝
+### Contributing 🤝
 Contributions are welcome! Feel free to fork this repository, create a branch, and submit a pull request. Ensure your changes are well-tested and documented.
 
-###License 📜
+### License 📜
 This project is licensed under the MIT License. See the LICENSE file for details.
