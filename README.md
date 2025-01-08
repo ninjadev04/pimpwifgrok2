@@ -41,21 +41,17 @@ Blockchain Pimp Bot is a smart, witty, and assertive Discord bot powered by the 
    ```bash
    git clone https://github.com/ninjadev04/pimpwifgrok2.git
    cd pimpwifgrok2
-Create a virtual environment:
-
+2. Create a virtual environment:
 bash
-Copy code
 python -m venv pimpgrok_env
 source pimpgrok_env/bin/activate  # For Windows: pimpgrok_env\Scripts\activate
-Install dependencies:
 
+3. Install dependencies:
 bash
-Copy code
 pip install -r requirements.txt
-Configure your credentials in configs/config.json:
 
+4. Configure your credentials in configs/config.json:
 json
-Copy code
 {
     "DISCORD_TOKEN": "your_discord_token",
     "GROK_API_KEY": "your_grok_api_key",
@@ -64,10 +60,9 @@ Copy code
     "TWITTER_ACCESS_TOKEN": "your_twitter_access_token",
     "TWITTER_ACCESS_TOKEN_SECRET": "your_twitter_access_secret"
 }
-Run the bot:
 
+5. Run the bot:
 bash
-Copy code
 python grok2.py
 
 ### Usage 🚀
@@ -76,12 +71,13 @@ Twitter Posting: Automatically posts tweets with blockchain and crypto insights 
 User Mentions: When users are tagged in Discord, the bot will tag them back in its replies.
 
 ### Key Technologies 💻
-Discord.py: For Discord bot integration.
-GROK API: Powers the AI-driven responses.
-spaCy & VADER: Handles sentiment analysis and entity recognition.
-Tweepy: For seamless Twitter integration.
-httpx: Used for secure and efficient API requests.
-Contributing 🤝
+- Discord.py: For Discord bot integration.
+- GROK API: Powers the AI-driven responses.
+- spaCy & VADER: Handles sentiment analysis and entity recognition.
+- Tweepy: For seamless Twitter integration.
+- httpx: Used for secure and efficient API requests.
+
+###Contributing 🤝
 Contributions are welcome! Feel free to fork this repository, create a branch, and submit a pull request. Ensure your changes are well-tested and documented.
 
 ###License 📜
